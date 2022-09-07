@@ -5,7 +5,7 @@ guess = ''
 pin = ''
 guess = input('')
 while pin != guess:
-	pin = random.choices(chars,k=4)
+	pin = random.choices(numbers,k=4)
 	pin = ''.join(pin)
 	print (f'cracking in progress:{pin}')
 print ('your pin is:',pin)
